@@ -1,0 +1,27 @@
+{
+  "name": "guess-repo-url",
+  "version": "0.1.0",
+  "description": "Guess the URL of a local repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/strugee/guess-repo-url.git"
+  },
+  "keywords": [
+    "git",
+    "hg",
+    "repo",
+    "url"
+  ],
+  "author": "Alex Jordan <alex@strugee.net>",
+  "license": "LGPL-3.0+",
+  "bugs": {
+    "url": "https://github.com/strugee/guess-repo-url/issues"
+  },
+  "dependencies": {
+    "guess-repo-type": "^1.0.0"
+  }
+}
